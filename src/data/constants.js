@@ -1,13 +1,13 @@
 import { Grade } from "@mui/icons-material";
-import Food from '../images/food.png'
-import Crud from '../images/crud.png'
-import Progress from '../images/progress.png';
-import Movie from '../images/movie.png';
-import Portfolio from '../images/portfolio.png';
-import Ecommerce from '../images/ecommerce.png';
-import Yume from '../images/yume.png';
-import factobi from '../images/factobi_icon.ico';
-import factobi1 from '../images/factobi1.png'
+import Food from "../images/food.png";
+import Crud from "../images/crud.png";
+import Progress from "../images/progress.png";
+import Movie from "../images/movie.png";
+import Portfolio from "../images/portfolio.png";
+import Ecommerce from "../images/ecommerce.png";
+import Yume from "../images/yume.png";
+import factobi from "../images/factobi_icon.ico";
+import factobi1 from "../images/factobi1.png";
 export const Bio = {
   name: "Meena Dhakad",
   roles: ["Frontend Developer", "Design-Driven Frontend Enthusiast"],
@@ -19,6 +19,8 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/meena-dhakad-9b225a202/",
   twitter: "https://x.com/DhakadMeena",
   insta: "https://www.instagram.com/smile_or_code/",
+  hashnpde: "https://hashnode.com/@Meena620",
+  devto: "https://dev.to/meena730",
 };
 
 export const skills = [
@@ -85,6 +87,11 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
+      {
+        name: "Hashnode",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
 
       {
         name: "Netlify",
@@ -135,7 +142,6 @@ export const experiences = [
       "Organizational skills",
     ],
   },
-  
 
   {
     id: 0,
@@ -188,7 +194,7 @@ export const education = [
     img: "https://tse1.mm.bing.net/th?id=OIP.a-xsEGAbhHWNO-DhOoTcFQHaEK&pid=Api&P=0&h=220",
     school: "Primathon Academy",
     date: "Aug 2023 - Present",
-    grade:"InternShip",
+    grade: "InternShip",
     desc: "Completed a certificate course in React Development, gaining proficiency in building dynamic web applications using React.js. Developed hands-on experience with components, state management, and hooks.",
     degree: "React Development Certification course ",
   },
@@ -206,7 +212,7 @@ export const education = [
     img: "https://imgs.search.brave.com/dczg9pl3VuE_gg0ySEUrqxxy9ZqsyGVnd2-UhMnlm2Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9uYXZv/ZGF5YS5nb3YuaW4v/bnZzL3N5c3RlbS9t/b2R1bGVzL05WUy5X/RUIvcmVzb3VyY2Vz/L2ltYWdlcy9udnNf/bG9nb19jb2xvcjEu/cG5n",
     school: "Jawahar Navodaya vidyalaya Mandsaur",
     date: "Apr 2015 - Apr 2016",
-    Grade:"8.6 CGPA",
+    Grade: "8.6 CGPA",
     desc: "I completed my class 10 education at JNV Mandsaur.",
     degree: "CBSE(X), Science ,Maths, Social.Science ",
   },
@@ -216,7 +222,7 @@ export const education = [
     school: "Vikram University, Ujjain",
     date: "Aug 2018 - Sep 2021",
     grade: "65%",
-    desc:"Graduated with a Bachelor of Science in Chemistry (Honors),Conducted extensive research and completed projects in analytical and organic chemistry. Demonstrated strong problem-solving and analytical skills through practical and theoretical coursework.",
+    desc: "Graduated with a Bachelor of Science in Chemistry (Honors),Conducted extensive research and completed projects in analytical and organic chemistry. Demonstrated strong problem-solving and analytical skills through practical and theoretical coursework.",
     degree: "Bachelor of Science - Chemistry Hon.",
   },
 ];
@@ -234,8 +240,6 @@ export const projects = [
 
     github: "https://github.com/meena730",
     webapp: "https://www.factobi.com/",
-    
-
   },
   {
     id: 9,
@@ -320,5 +324,3 @@ export const projects = [
     webapp: "https://e-commerce-using-redux.netlify.app/",
   },
 ];
-
-
