@@ -51,6 +51,7 @@ export const NavItems = styled.ul`
     gap: 32px;
     padding: 0 6px;
     list-style: none;
+    
 
     @media screen and (max-width: 768px) {
       display: none;

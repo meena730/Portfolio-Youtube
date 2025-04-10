@@ -77,7 +77,7 @@ const Skill = styled.div`
 `
 
 const SkillTitle = styled.h2`
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
@@ -94,7 +94,7 @@ const SkillList = styled.div`
 
 const SkillItem = styled.div`
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
   border-radius: 12px;
@@ -124,7 +124,7 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of my skills on which I have been working on for the past 10 Months.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
